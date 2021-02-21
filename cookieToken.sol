@@ -76,8 +76,8 @@ contract LAHMACUNTOKEN is LAHMACUNFINANCE {
   mapping (address => uint256) private _balances;
   mapping (address => mapping (address => uint256)) private _allowed;
 
-  string constant tokenName = "LAHMACUN FINANCE";
-  string constant tokenSymbol = "LAHMACUN";
+  string constant tokenName = "LAHMACUN";
+  string constant tokenSymbol = "LHMCN";
   uint8  constant tokenDecimals = 18;
   uint256 _totalSupply = 500000*10**18 ;
   uint256 public basePercent = 100;
